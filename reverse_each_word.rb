@@ -1,6 +1,6 @@
 def reverse_each_word(phrase)
   word = []
-  word << phrase.reverse_each_word
+  word << phrase.reverse
   word.each do |w|
   end
 end
