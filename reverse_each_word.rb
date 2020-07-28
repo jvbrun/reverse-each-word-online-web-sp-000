@@ -2,6 +2,6 @@ def reverse_each_word(phrase)
   word = []
   word << phrase
   word.each do |w|
-    #{word.reverse()}
+   puts "#{word.reverse()}"
   end
 end
